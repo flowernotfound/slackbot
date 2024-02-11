@@ -1,9 +1,3 @@
-// for test response http post request
-// function doPost(e) {
-//   const params = JSON.parse(e.postData.getDataAsString());
-//   return ContentService.createTextOutput(params.challenge);
-// }
-
 function doPost(e) {
   let params = JSON.parse(e.postData.getDataAsString());
 
